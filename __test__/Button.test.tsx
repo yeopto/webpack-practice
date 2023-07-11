@@ -9,5 +9,5 @@ test("loads and displays greeting", () => {
   // ACT
 
   // ASSERT
-  expect(screen.getByRole("button")).toHaveTextContent('d');
+  expect(screen.getByRole("button")).toHaveTextContent('h');
 });
