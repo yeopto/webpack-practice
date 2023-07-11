@@ -1,5 +1,4 @@
 import { render, screen } from "@testing-library/react";
-import userEvent from "@testing-library/user-event";
 import "@testing-library/jest-dom";
 import Button from "../src/Button/Button";
 
@@ -10,5 +9,5 @@ test("loads and displays greeting", () => {
   // ACT
 
   // ASSERT
-  expect(screen.getByRole("button")).toHaveTextContent('h')
+  expect(screen.getByRole("button")).toHaveTextContent('hi');
 });
